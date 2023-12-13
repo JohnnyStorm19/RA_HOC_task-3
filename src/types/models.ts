@@ -12,3 +12,5 @@ export interface IComponentsProps {
 export interface IDataToState {
     (data: IRecievedData[], componentType: string): IRecievedData[];
 }
+
+export type TComponentName = 'yearTable' | 'monthTable' | 'sortTable';
